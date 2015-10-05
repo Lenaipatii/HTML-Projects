@@ -1,0 +1,126 @@
+body  { background: url("imagini/bg.jpg"); margin: 8px;}
+.big_container{background:url("imagini/bg-top.jpg") no-repeat; background-size: 100% auto;}
+.header {display:block; text-align:center;}
+.header .menu > li {display:inline-block; background-image:url ("imagini/bg.jpg"); padding:15px 0; border: 1px solid #919FAA;}
+.header .menu li {text-transform: uppercase; list-style: none; }
+.header .menu ul {display:none; text-align:left; padding: 0; position:absolute; top:60px;}
+.header .menu > li > a {text-decoration: none; font: bold 18px Sans-serif; color: #ffffff; padding:15px 40px; }
+
+.header .menu li ul{background-color:#fff;}
+.header .menu li:hover ul{display:block;}
+.header .menu ul > li a {padding: 10px 12px; display:block; text-decoration: none; color: #f6873b; font: bold 18px Sans-serif;}
+.header .menu ul > li a:hover {background-color:#f6873b; color:#fff; display:block; padding: 10px 12px;}
+.header .menu ul ul {position:absolute; left:140px; display:none;}
+
+.wedding {padding: 53px 0 66px;}
+.wedding .agency {display:block; text-align:center;}
+.wedding .agency .left-side, .wedding .agency .middle-side, .wedding .agency .right-side { display:inline-block; width: 33%;}
+.wedding .agency .left-side, .wedding .agency .right-side {position: relative; top: 25px;}
+.wedding .agency .left-side .line{text-align:right;}
+.wedding .agency .right-side .line{text-align:left; }
+.wedding .agency .middle-side .logo {padding-bottom:10px;}
+.wedding .agency .middle-side .logo img {vertical-align:middle; }
+.wedding .motto {display:block; text-align:center; margin: 0 auto 18px; font: bold 18px 'Arial', sans-serif; color: #fff; letter-spacing: 1px; width: 170px;}
+.wedding .pasare {display:block; text-align:center;}
+
+.info {text-align:center; display:block; background: #ffffff; position:relative; margin:0 60px;}
+.info:before {content: ''; background: url("imagini/content-top-decor.png") repeat-x; position: absolute; top:-4px; left: 0; height: 4px; width: 100%}
+.info:after { content: ''; background:url("imagini/content-bottom-decor-footer.png") repeat-x; position: absolute; bottom: -2px; left: 0; width: 100%; height: 2px;}
+.info .container { margin:0 30px; display:block;}
+.info .container .adresa { margin: 0 0 22px; display:inline-block;}
+.info .container  .adresa h1 {text-align:center; font-weight: bold; letter-spacing:2px; margin:9px 0;}
+.info .container .adresa h1 .chicago, .info .container .adresa h1 .office {font-size: 85%; color: #4F4F4F; font-family:cursive;}
+.info .container .adresa h1 .call, .info .container .adresa h1 .telefon {color: #f17a29;}
+.info .container .adresa h1 .telefon  {font-size:100%;}
+.info .container .galery_carusel { background-image:url("imagini/orange-noise.png"); padding: 10px 0 1px; position: relative; margin: 0 0 8px;}
+.info .container .galery_carusel:before{content: ''; background: url("imagini/content-top-decor.png") repeat-x; position: absolute; top: -2px; left: 0; height: 2px; width: 100%;}
+.info .container .galery_carusel:after{content: ''; background: url("imagini/carousel-bottom-decor.png") repeat-x; position:absolute; bottom:-10px; left:0; height:10px; width:100%;}
+.info .container .galery_carusel .galery { display:inline-block; text-align:center;}
+.info .container .galery_carusel .galery  .middle-side h2 {color: #fff; font-size:36px; font-family:cursive;}
+.info .container .galery_carusel .galery .left-side, .info .container .galery_carusel .galery .middle-side, .info .container .galery_carusel .galery .right-side {display:inline-block;}
+.info .container .galery_carusel .galery .left-side, .info .container .galery_carusel .galery .right-side {border-top: 1px solid #fff; width: 114px; vertical-align:middle;}
+.info .container .galery_carusel .carusel .nunta {display:inline-block; margin:3px;}
+.info .container .galery_carusel .carusel .nunta img {border-radius:50%;}
+.info .container .galery_carusel .carusel .infonunta {text-align:center; display:block; padding:20px 0 20px 0;}
+.info .container .galery_carusel .carusel .infonunta  time  {color:#ffb98a; font:bold 16px sans-serif;}
+.info .container .galery_carusel .carusel .infonunta  h5  {width: 70%; margin: 5px auto 0;}
+.info .container .galery_carusel .carusel .infonunta  h5 a {color:#fff; text-decoration: none; font:bold 17px sans-serif;}
+.info .container .galery_carusel .carusel .infonunta  h5 a:hover {text-decoration:underline;}
+
+.city_beach_country {display:block; background: url("imagini/bg-weddings.jpg") no-repeat; background-size:cover; text-align:center; margin: 0 30px;}
+.city_beach_country .container2 {display:block; margin-bottom: -25px;}
+.city_beach_country .left-side, .city_beach_country .middle-side, .city_beach_country .right-side {display:inline-block; width:30%; padding:19px 15px 60px 15px;vertical-align:middle;}
+.city_beach_country h2 {font: 90px 'Times', cursive; color: #fff;margin:0;}
+.city_beach_country h5 {font:36px 'Times', cursive; color: #fff; margin: -9px 0 20px 0;}
+.city_beach_country p {color:#fff; margin:0 0 15px; font: 13px 'Arial' sans-serif;}
+.city_beach_country button {font: 18px 'Arial' sans-serif; text-decoration:underline; color:#fff; background:none; border:none; font-weight:bold; cursor:pointer;}
+.city_beach_country button:hover {color:#f6873b; font-weight:normal;}
+
+.buton {position:relative;}
+.buton_central {text-align:center; display:block; position:relative;}
+.buton_central button {color:#fff; text-transform:uppercase; padding:11px 40px; border:1px solid transparent; background: #f6873b; vertical-align:middle; cursor:pointer; font:bold 18px sans-serif; letter-spacing: 1px; display:inline-block;}
+.buton_central button:hover {background:#fff; border:1px solid #f6873b; color:#f6873b}
+.buton_central:before { content: ''; background:url("imagini/quote-open.png") no-repeat; position:absolute; width:30px; height:21px; top:1px;}
+.buton_central:after { content: ''; background:url("imagini/quote-close.png") no-repeat; position:absolute; width:30px; height:21px; right:480px; bottom:1px;}
+
+.services {padding: 20px 0 50px 0;}
+.services .our_services {display:block; padding: 30px 0 20px;}
+.services .our_services .left-side, .our_services .middle-side, .our_services .right-side {display:inline-block;}
+.services .our_services .middle-side h2 {color:#414141; font:bold 40px sans-serif; margin:0px; padding:0px; }
+.services .our_services .left-side, .our_services .right-side  {border-top: solid 1px #000; width: 114px; vertical-align: middle;}
+.services .our_services .left-side {position:relative; right:10px;}
+.our_services .right-side  {position:relative; left:10px;}
+
+.service_box {padding:0 100px;}
+.service_box .service_orange {display:inline-block; padding:0 10px;}
+.service_box .service_orange .text1 { color:#f6873b; padding:0px; font: 13px 'Times' sans-serif; text-decoration:none; font-weight:bold;}
+.service_box .service_orange .text1:hover {text-decoration: underline; cursor:pointer;}
+
+.footer .container {display:block; text-align:center; background:#f5f5f5; padding:28px 0 55px; position:relative;}
+.footer .container .left-side .lista {display:inline-block;}
+.footer .container .left-side, .footer .container .right-side { display:inline-block;} 
+.footer .container .left-side {text-align:left;}
+.footer .container .left-side .lista {margin: 0 0 0 30px; padding: 0px;}
+.footer .container .left-side .lista li {list-style:none; padding:4px 0 4px 15px; width: 170px; background:url("imagini/arrow.png") 0 10 no-repeat; position:relative;}
+.footer .container .left-side .lista:last-child{position: relative; top: -25px;}
+.footer .container .left-side .lista li a {font: 13px 'Arial' sans-serif; font-weight:bold; color: #414141; text-decoration:none; }
+.footer .container .left-side .lista li a:hover {color:#f6873b;}
+
+.footer .container .right-side {text-align:right; }
+.footer .container .right-side .telefon, .footer .container .right-side .adresa {text-align:left;}
+.footer .container .right-side .telefon { margin: 0 0 10px; color: #f6873b; font: 13px 'Arial' sans-serif; font-weight:bold; } 
+.footer .container .right-side .adresa { font: 13px 'Arial' sans-serif; font-weight:bold; color:#c1c1c1;}
+.footer .container .right-side .adresa a { color:#414141; text-decoration:underline;}
+
+.footertext {display:block; text-align:center; padding:50px;}
+.footertext .logo  {margin:0 0 5px;}
+.footertext .logo .left-side, .footertext .logo .middle-side, .footertext .logo .right-side {display:inline-block;}
+.footertext .logo .left-side .line, .footertext .logo .right-side .line  { vertical-align:middle; position:relative;}
+.footertext .logo .left-side .line {top:-25px;}
+.footertext .logo .right-side .line { top:-25px;}
+.footertext .policy {color:#7c7b7b; text-decoration:none; font: 18px 'Arial' sans-serif; font-weight:bold;}
+.footertext .policy a {color:#7c7b7b; text-decoration:none; font: 18px 'Arial' sans-serif; font-weight:bold;}
+.footertext .policy a:hover {color:#414141;}
+
+.sageata {position: fixed; right: 9px; z-index: 10; bottom: 9px; }
+.sageata a {background-color: #000; padding: 20px; }
+.sageata a:hover{background-color:#f17a29;;}
+.sageata img {width:17px; height:13px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
